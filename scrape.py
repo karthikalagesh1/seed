@@ -25,4 +25,5 @@ with sync_playwright() as p:
         grand_total += sum(numbers)
 
     print("FINAL TOTAL:", grand_total)
+
     browser.close()
